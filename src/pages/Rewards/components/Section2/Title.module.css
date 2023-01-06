@@ -1,0 +1,102 @@
+.section2Container {
+    background: var(--light-light-green-bg);
+    padding:2rem 0 18rem 0;
+}
+.section2Content {
+    text-align: center;
+}
+.section2Content h1 {
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    line-height: 1.2;
+}
+.section2Content p {
+    font-size:1.1rem;
+}
+.section2Btn {
+    background: var(--light-green-bg);
+    border:none;
+    margin-top:1rem;
+}
+.section2a {
+    margin-top:1rem;
+}
+.a__btn {
+    color:var(--light-green-bg);
+    font-size:1rem;
+    background: inherit;
+    border:none;
+}
+.headerBtn {
+    color:white;
+    border-radius:100px;
+}
+
+
+@media (min-width:768px) {
+
+    /*Section 1 */
+    /* Section 2*/
+    .section2Container {
+        background: var(--light-light-green-bg);
+        padding: 5rem 2rem;
+    }
+
+    .section2Content {
+        text-align: start;
+    }
+
+    .section2Content h1 {
+        font-size: 2.2rem;
+    }
+
+    .section2Content p {
+        font-size: 1.4rem;
+    }
+
+    .section2Btn {
+        display: block;
+        padding: 0.6rem;
+        font-weight: bolder;
+        font-size: 0.9rem;
+    }
+
+    .section2a {
+        margin-top: 1rem;
+        font-size: 1.3rem;
+    }
+
+    .section2a::after {
+        content: " in the app for the best experience"
+    }
+
+    .section2Content a {
+        text-decoration: underline;
+    }
+}
+
+
+@media (min-width:1000px) {
+
+    /*Section 2*/
+    .section2Container {
+        background: var(--light-light-green-bg);
+        padding: 13rem;
+    }
+
+    .section2Content {
+        text-align: start
+    }
+
+    .section2Content p {
+        font-size: 1.3rem;
+    }
+
+    .section2Btn {
+        margin-top: 2rem;
+    }
+
+    .section2Content a {
+        font-size: 1.3rem;
+    }
+}

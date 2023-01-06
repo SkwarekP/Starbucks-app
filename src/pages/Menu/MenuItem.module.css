@@ -1,0 +1,29 @@
+.header {
+    margin-top: 1rem;
+}
+
+.title {
+    margin-top: 2rem;
+}
+
+.row {
+    display: flex;
+    margin-left: 1rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.single__item {
+    margin-top: 2rem;
+    text-align: center;
+    max-width: 125px;
+}
+
+.single__item p {
+    font-size: 1.05rem;
+}
+
+.img {
+    border-radius: 50%;
+    max-width: 100%;
+}

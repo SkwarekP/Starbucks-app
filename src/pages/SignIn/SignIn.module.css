@@ -1,0 +1,149 @@
+.container {
+    padding: 1rem;
+}
+
+.container h1 {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.head {
+
+}
+
+.head p {
+    font-size: 1.05rem;
+}
+
+.input1 {
+    padding: 0.8rem 1rem !important;
+}
+
+.input input {
+    min-width: 100%;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.checkbox_flex {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.green_span {
+    color: #006241;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.reminder li {
+    margin-top: .8rem;
+}
+
+.signIn_button__container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 3rem 0;
+}
+
+.sign_btn {
+    background: var(--light-green-bg);
+    color: #ffffff;
+    border: none;
+    padding: 1.2rem 1.6rem;
+    border-radius: 100px;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.section2__container {
+    padding: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    background: var(--light-gray-bg);
+}
+
+.section2__container h3 {
+    text-transform: uppercase;
+    font-size: .95rem;
+    color: #006241;
+}
+
+.section2__container p {
+    font-size: 1.05rem;
+}
+
+.sec2__card_btn {
+    padding: .5rem .8rem;
+    border: 1px solid #006241;
+    border-radius: 100px;
+    background: inherit;
+    color: #006241;
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+@media (min-width: 668px) {
+
+    .sec1__container {
+        border: 1px solid lightgray;
+        padding: 2rem 2rem 0 2rem;
+        margin: 3rem auto;
+        max-width: 500px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .section2__container {
+        margin: 2rem auto;
+        padding: 2rem 3rem;
+        border-radius: 20px;
+        max-width: 500px;
+    }
+
+    .section2__container p {
+        font-size: 1.1rem;
+    }
+
+    .section2__container h3 {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 1000px) {
+    .head p {
+        font-size: 1.2rem;
+    }
+
+    input::placeholder {
+        font-size: 1.1rem;
+        color: #006241;
+    }
+
+    .checkbox_flex {
+        font-size: 1.125rem;
+    }
+
+    .reminder {
+        font-size: 1.250rem;
+    }
+
+    .sign_btn {
+        font-size: 1.1rem;
+    }
+
+    .sec2__card_btn {
+        font-size: 1.125rem;
+    }
+
+    .section2__container h3 {
+        font-size: 1.3rem;
+    }
+
+    .section2__container p {
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,108 @@
+.section8Container {
+    padding:4rem 1rem;
+}
+.section8__StarCodes_header p {
+    font-size:1.05rem;
+}
+.section8__StarCodes_InpandBtn input {
+    width:100%;
+    padding:0.8rem 0.5rem;
+    border-radius:10px;
+    border:1px solid gray;
+}
+.sec8__btn_container {
+    margin-top:1rem;
+    display:flex;
+    justify-content: flex-end;
+}
+.section8__StarCodes_btn {
+    background:inherit;
+    padding:0.4rem 1rem;
+    border-radius:100px;
+    border:1px solid black;
+    font-weight: bolder;
+    font-size:0.85rem;
+}
+.section8__under__header {
+    margin-top:3rem;
+}
+
+@media (min-width:768px) {
+
+    /*Section 8*/
+    .section8Container {
+        padding: 4rem 12rem;
+    }
+
+    .section8__StarCodes_header h2 {
+        font-size: 1.8rem;
+    }
+
+    .section8__StarCodes_header p {
+        font-size: 1.2rem;
+    }
+
+    .section8__StarCodes_InpandBtn input {
+        width: 420px;
+        padding: 0.8rem 0.5rem;
+        border-radius: 10px;
+        border: 1px solid gray;
+    }
+
+    .sec8__btn_container {
+        display: block;
+        margin: 1rem 21rem;
+    }
+
+    .section8__under__header {
+        margin-top: 5rem;
+    }
+
+    .section8__under__header h2 {
+        font-size: 1.8rem;
+    }
+
+    .section8__under__header p {
+        font-size: 1.2rem;
+        line-height: 1.3;
+    }
+}
+
+@media (min-width:1000px) {
+
+    /*Section 8 */
+    .section8Container {
+
+    }
+
+    .section8__StarCodes {
+        margin: 2rem 18%;
+    }
+
+    .section8__StarCodes_InpandBtn input {
+        width: 650px;
+    }
+
+    .section8__StarCodes_InpandBtn input::placeholder {
+        opacity: 1;
+        font-size: 1rem;
+    }
+
+    .sec8__btn_container {
+        display: flex;
+        justify-content: flex-end;
+        width: 310px;
+    }
+
+    .section8__StarCodes_btn {
+        font-size: 1rem;
+    }
+
+    .section8__under__header {
+        margin: 2rem 18%;
+    }
+
+    .section9Container {
+        padding: 1rem 10rem;
+    }
+}

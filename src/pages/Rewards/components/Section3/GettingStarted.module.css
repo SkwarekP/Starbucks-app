@@ -1,0 +1,126 @@
+.section3Container {
+    padding:4rem 1rem;
+}
+.section3Header {
+    text-align: center;
+}
+.section3Header h3 {
+    font-size:1.5rem;
+    letter-spacing: .5px;
+}
+.section3Header p{
+    opacity:0.8;
+    font-size:1.09rem;
+}
+.list {
+    margin-top:3rem;
+}
+.list__item {
+    margin-top:.5rem;
+    display:flex;
+    gap:1rem;
+}
+.counterIconContainer {
+    /*border:1px solid blue;*/
+}
+.counterIcon {
+    font-size:1.4rem;
+    font-weight: bold;
+    color: var(--light-green-bg);
+    padding:.5rem 1rem;
+    border:2px solid var(--light-green-bg);
+    border-radius:50%;
+}
+.list__item_text h3{
+    font-size:1.09rem;
+}
+.list__item_text p {
+    opacity: 0.8;
+    font-size:1.01rem;
+}
+.greenSpan {
+    color: var(--light-green-bg);
+    text-decoration: underline;
+}
+
+@media (min-width:768px) {
+
+    /*Section 3*/
+    .section3Container {
+        padding: 6rem 3rem;
+    }
+
+    .section3Header {
+        text-align: center;
+    }
+
+    .section3Header h3 {
+        font-size: 2rem;
+    }
+
+    .section3Header p {
+        opacity: 0.8;
+        font-size: 1.2rem;
+    }
+
+    .list {
+        margin-top: 3rem;
+        display: flex;
+        gap: 3rem;
+    }
+
+    .list__item {
+        display: block;
+    }
+
+    .counterIconContainer {
+        width: 50px;
+        text-align: center;
+        margin: 1rem auto;
+        /*margin-left:5rem;
+        margin-bottom:2rem;*/
+    }
+
+    .counterIcon {
+        font-size: 1.4rem;
+        padding: .5rem 1rem;
+    }
+
+    .list__item_text h3 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .list__item_text p {
+        opacity: 1;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+}
+
+@media (min-width:1000px) {
+
+    /*Section 3*/
+    .list {
+        margin-top: 3rem;
+        display: flex;
+        gap: 4rem;
+        justify-content: center;
+    }
+
+    .list__item {
+        display: block;
+        width: 20%;
+    }
+
+    .counterIconContainer {
+        width: 50px;
+        text-align: center;
+        margin: 1rem auto;
+    }
+
+    .counterIcon {
+        font-size: 1.4rem;
+        padding: .5rem 1rem;
+    }
+}

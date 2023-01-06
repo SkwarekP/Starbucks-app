@@ -1,0 +1,127 @@
+.interline__shadow {
+    width:100%;
+    margin-top:1rem;
+}
+.section10Container {
+    padding:3rem 1rem;
+}
+.section10__list__row {
+    display:flex;
+    justify-content: space-between;
+    font-size:1.2rem;
+    margin-top:2rem;
+}
+.section10__desktop_col {
+    display:none;
+}
+.section10__list__row li img {
+    width:36px;
+}
+.icons__flex {
+    margin-top:2rem;
+    display:flex;
+    gap:.85rem;
+}
+.icons__flex img {
+    width:34px;
+}
+.icon__container_circle {
+    padding:1rem;
+    border-radius:50%;
+    background: #000000;
+}
+.section10__list__underIcon{
+    margin-top:1rem;
+}
+.section10__list__underIcon li {
+    font-size:1.1rem;
+    line-height:2.5;
+}
+.section10__list__underIcon li:last-child {
+    font-size:0.85rem;
+    letter-spacing: 0.3px;
+    opacity:0.6;
+}
+.section10__last {
+    display:none;
+}
+.interline {
+    padding:1px;
+    background: lightgray;
+}
+
+@media (min-width:768px) {
+    /*Section 10*/
+
+    .section10__list__underIcon li:last-child {
+        font-size:1rem;
+    }
+    .li__desktop {
+        display:none;
+    }
+
+}
+
+@media (min-width:1000px) {
+    /* .section 10 */
+    .section10Container {
+        padding:0 1rem;
+    }
+
+    .section10__list {
+        display:flex;
+        gap:3rem;
+        padding:1rem 10rem;
+    }
+    .section10__list__row li:first-child {
+        font-size:1.25rem;
+    }
+    .section10__list__row li:last-child {
+        display:none;
+    }
+    .section10__desktop_col {
+        display:block;
+    }
+    .section10__desktop_col h3{
+        font-size:1.2rem;
+    }
+    .li__desktop {
+        display:block;
+        margin-top:2rem;
+        font-size:1.1rem;
+        line-height:1;
+        opacity:0.7;
+    }
+    .section10__list__row > li:first-child{
+        display:none;
+    }
+    .section10__list__row > li:nth-child(2){
+        display:none;
+    }
+
+    .icons__flex {
+        padding:0 10rem;
+    }
+    .section10__list__underIcon {
+        display:flex;
+        padding: 0 10rem;
+        gap:2rem;
+    }
+    .section10__list__underIcon li:first-child::after,
+    .section10__list__underIcon li:nth-child(2)::after,
+    .section10__list__underIcon li:nth-child(3)::after{
+        content:"|";
+        margin-left:1rem;
+    }
+    .section10__list__underIcon li:last-child {
+        display:none;
+    }
+    .section10__last {
+        display:block;
+        padding:0 10rem;
+        font-size:1.1rem;
+        letter-spacing: 0.5px;
+        opacity:0.6;
+        margin-top:.5rem;
+    }
+}

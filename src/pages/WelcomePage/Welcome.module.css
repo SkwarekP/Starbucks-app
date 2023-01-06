@@ -1,0 +1,139 @@
+*::after,
+*::before,
+* {
+    box-sizing: border-box;
+}
+.sec2__container {
+    margin-top:2rem;
+}
+    /*Section 3*/
+
+.sec3__container {
+    padding:1.5rem 1.5rem 2rem 1.5rem;
+    margin-top:-0.2rem;
+    background:#1e3932;
+}
+.welcome__container {
+
+}
+.sec3__text {
+    color:#FFFFFF;
+    text-align:center;
+}
+.sec3__text h1 {
+    font-size:2rem;
+}
+.sec3__text p {
+    font-size:1.5rem;
+}
+.sec3__btn__container {
+    text-align: center;
+}
+.sec3__btn {
+    color:#ffffff;
+    border:1.5px solid #ffffff;
+    border-radius:100px;
+    background: inherit;
+    font-size:0.85rem;
+    font-weight:500;
+    padding:0.3rem 1rem 0.5rem 1rem;
+}
+.last__div__container {
+    color:#000000;
+    padding:3rem 1rem 0 1rem;
+    text-align: center;
+    font-size:1.05rem;
+    line-height: 1.5;
+}
+
+@media (min-width:768px) {
+
+    .tablet__flex {
+        display:flex;
+        margin-top:2rem;
+    }
+    .tablet__flex > * {
+        flex-basis: 100%;
+    }
+
+    .tablet__flex:nth-child(2) .sec2__container {
+        order:1;
+    }
+    .tablet__flex:nth-child(4) .sec2__container {
+        order:1;
+    }
+    .sec2__container {
+        padding:0;
+        margin:0;
+    }
+    .sec2__container img {
+        min-height: 100%
+    }
+    .sec3__container {
+        padding:1.5rem 1.5rem 2rem 1.5rem;
+        margin-top:0;
+    }
+    .last__div__container {
+        max-width:60%;
+        text-align: center;
+        margin:0 auto;
+        line-height: 1.5;
+    }
+    .sec3__text {
+        text-align:center;
+        width:80%;
+        margin:0 auto;
+    }
+    .sec3__text h1 {
+        font-size:2.2rem;
+    }
+    .sec3__text p {
+        font-size:1.8rem;
+    }
+    .tablet__flex:nth-child(4) .sec3__container .sec3__text h1 {
+        font-size:1.8rem;
+    }
+    .tablet__flex:nth-child(4) .sec3__container .sec3__text p {
+        font-size:1.4rem;
+        line-height: 1.5;
+    }
+    .sec3__btn {
+        font-size:1rem;
+        font-weight: bold;
+    }
+}
+
+@media (min-width:1100px) {
+    .welcome__container {
+        margin:0 10%;
+    }
+
+    .sec3__container {
+        padding:0;
+        margin:0;
+        background:#1e3932;
+    }
+    .sec3__text {
+        text-align:center;
+        max-width:100%;
+        margin:20% auto;
+    }
+    .sec3__text h1 {
+        font-size:3.5rem;
+    }
+    .sec3__text p {
+        font-size:1.8rem;
+    }
+    .last__div__container {
+        max-width:100%;
+        text-align: center;
+        margin:auto;
+        line-height:1.5;
+    }
+    .last__div__text {
+        margin:0 30%;
+        text-align: center;
+    }
+
+
+}

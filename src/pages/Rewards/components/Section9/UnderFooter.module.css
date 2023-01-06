@@ -1,0 +1,43 @@
+.section9Container {
+    padding:1rem;
+}
+.section9__title {
+    margin-top:2rem;
+    text-transform: uppercase;
+    font-size:0.75rem;
+    opacity:0.8;
+    font-weight: bolder;
+    letter-spacing: .7px;
+}
+.section9__text {
+    line-height: 1.3;
+}
+
+@media (min-width:768px) {
+
+    /*Section 9*/
+    .section9Container {
+        padding: 1rem;
+        background: #f8fdff;
+    }
+
+    .section9__title {
+        margin-top: 1rem;
+        font-size: .9rem;
+    }
+
+    .section9__text {
+        line-height: 1.3;
+        flex: 1;
+    }
+
+    .section9__text p {
+        font-size: 1.05rem;
+    }
+
+    .section9__text__row {
+        display: flex;
+        gap: 3rem;
+    }
+}
+

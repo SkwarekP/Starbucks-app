@@ -1,0 +1,258 @@
+img {
+    max-width: 100%;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+}
+
+.headerPath {
+    padding: .5rem 1.2rem;
+    background: whitesmoke;
+    box-shadow: 0 0 0 1px gainsboro;
+}
+
+.headerPath_text {
+    font-size: 0.9em;
+}
+
+.headerPath_text p {
+    margin: 0;
+}
+
+.product__container {
+    background: #1f3933;
+    padding: .1rem 0;
+}
+
+/*
+#1f3933
+*/
+.product__img img {
+    max-width: 325px;
+}
+
+.product__img {
+    background: #1f3933;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.product__text {
+    color: white;
+    text-align: center;
+}
+
+.product__text p {
+    font-size: 1.3rem;
+    opacity: 0.7;
+    letter-spacing: .8px;
+}
+
+.options__container {
+    padding: 1rem;
+}
+
+.size__options_interline {
+    padding: 0.1rem;
+    background: var(--light-light-green-bg);
+    margin-top: .75rem;
+}
+
+.size__options_header h3 {
+    margin-left: 0;
+    margin-top: 1rem;
+    letter-spacing: .8px;
+}
+
+select {
+    padding: 1rem 0;
+    width: 100%;
+    background: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-transform: none;
+}
+
+.select__input {
+    font-size: 1.1rem;
+    padding: 1rem;
+}
+
+option {
+
+}
+
+.options__card__container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.customize__container {
+    margin-top: 2rem;
+    border: 1px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row li:last-child {
+    margin-right: 0.5rem;
+    font-family: "Arial";
+}
+
+.list {
+    padding: .75rem;
+    line-height: 1.5;
+    font-size: 1.05rem;
+}
+
+.full_nutrition__container {
+    background: #1e3933;
+    padding: 1.5rem 1rem;
+    margin-top: 3rem;
+}
+
+.stars__container {
+    color: #cba258;
+    border: 1px solid #cba258;
+    max-width: 85px;
+    border-radius: 6px;
+    padding: 0 5px 2px;
+}
+
+
+.full_nutrition__text {
+    color: White;
+    opacity: 0.6;
+}
+
+.full_nutrition__ingredients {
+    color: White;
+    font-weight: bolder;
+}
+
+.full_nutrition_btn__container button {
+    color: white;
+    border: 1px solid white;
+    border-radius: 100px;
+    background: inherit;
+    font-size: .9rem;
+    font-weight: bolder;
+    padding: .5rem 1rem;
+}
+
+.desktop__left_options {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .options__container {
+        max-width: 450px;
+        margin: 0 auto;
+    }
+
+    .list {
+        font-size: 1.2rem;
+    }
+
+    .size__options_header h3 {
+        font-size: 1.5rem;
+    }
+
+    .full_nutrition__container {
+        background: #1e3933;
+        padding: 1.5rem 1rem;
+        margin-top: 3rem;
+    }
+
+    .full_nutrition__in__container {
+        max-width: 450px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1000px) {
+    .product__container {
+        display: flex;
+        gap: 8rem;
+    }
+
+    .product__img {
+        background: #1f3933;
+        text-align: center;
+        margin: 0 100px;
+    }
+
+    .product__text {
+        align-self: center;
+        margin: 0;
+    }
+
+    .product__text h2 {
+        font-size: 2.5rem;
+    }
+
+    .product__text p {
+        font-size: 1.5rem;
+    }
+
+    .desktop__left_options {
+        display: block;
+        padding: 1rem;
+        min-width: 350px;
+        margin: 0 100px;
+    }
+
+    .options__container {
+        min-width: 450px;
+        margin: 0;
+    }
+
+    .desktop__flex_row {
+        display: flex;
+        gap: 3rem;
+    }
+
+    .high_resolution__display {
+        display: none;
+    }
+
+    .size__options_row {
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        padding: 2rem 0;
+    }
+
+    .text_under_image {
+        text-align: center;
+    }
+
+    .text_under_image p {
+        margin: 2px 0;
+    }
+
+    .drink_image {
+        text-align: center;
+    }
+
+    .drink_image img {
+        
+    }
+
+    .drink_image_choosed {
+        border: 2px solid green;
+        border-radius: 50%;
+        padding: 10px 10px 5px 10px;
+        background: var(--light-light-green-bg);
+    }
+
+}
+

@@ -1,0 +1,124 @@
+.section6Container {
+    padding:5rem .5rem;
+}
+.section6Header {
+    text-align:center;
+    line-height: 1.2;
+}
+.section6Header h2 {
+    font-size:1.6rem;
+}
+.section6Header p {
+    font-size:1.05rem;
+}
+.section6__list {
+    margin-top:2rem;
+}
+.section6__list__item {
+    display:flex;
+    gap:1rem;
+    margin-top:3rem;
+}
+.section6__list__item__text {
+    margin-top:.5rem;
+    flex:1;
+    line-height: 1.3;
+}
+.section6__list__item__text button {
+    text-decoration: underline;
+    color:var(--light-green-bg);
+    background: inherit;
+    border:none;
+    font-size:1rem;
+}
+.section6Img {
+    width:122px;
+}
+
+@media (min-width:768px) {
+
+    /*Section 6*/
+    .section6Container {
+        padding: 5rem .5rem;
+    }
+
+    .section6Header {
+        text-align: center;
+        line-height: 1.2;
+        padding: 0 6.7rem;
+        margin-top: 4rem;
+    }
+
+    .section6Header h2 {
+        font-size: 1.8rem;
+    }
+
+    .section6Header p {
+        font-size: 1.2rem;
+        letter-spacing: .6px;
+    }
+
+    .section6__list {
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .section6__list__item {
+        display: block;
+        margin-top: 3rem;
+        flex: 1;
+    }
+
+    .section6__list__item__text {
+        margin-top: .5rem;
+        line-height: 1.3;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .section6__list__item__text a {
+        text-decoration: underline;
+        color: var(--light-green-bg)
+    }
+
+    .section6Img {
+        width: 122px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width:1000px) {
+
+    /*Section 6*/
+    .section6Container {
+        padding: 5rem 10rem;
+    }
+
+    .section6Header {
+        text-align: center;
+        line-height: 1.2;
+        padding: 0;
+        width: 45%;
+        margin: 2rem auto;
+    }
+
+    .section6__list {
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        gap: 0;
+    }
+
+    .section6__list__item {
+        display: block;
+        margin-top: 3rem;
+        flex: 1 1 0;
+    }
+
+    .section6__list__item__text {
+        width: 80%;
+        margin: 2rem auto;
+    }
+}
